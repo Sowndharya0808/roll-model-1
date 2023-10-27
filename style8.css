@@ -1,0 +1,120 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'times new roman',sans-serif;
+}
+body{
+    background-image:linear-gradient(to right,#C1E2FF,#ABC7FF);
+} 
+.circle{
+    position: relative;
+    overflow:hidden;
+
+}
+.circle.circle1{
+    width: 250px;
+    height:250px;
+    float:left;
+    border-radius:100%;
+    margin:30px;
+    shape-outside: circle();
+    box-shadow:10px 11px 3px black;
+}
+.circle.circle1 img{
+    width:250px;
+    height:250px;
+}
+.card{
+    position: relative;
+    overflow:hidden;
+}
+.card{
+    width: 250px;
+    height:300px;
+    float:right;
+    border-radius:10px;
+    margin:50px;
+    box-shadow:10px 11px 3px black;
+}
+.card img{
+    width:300px;
+    height:250px;
+}
+.card1{
+    position: relative;
+    overflow:hidden;
+}
+.card1{
+    width: 250px;
+    height:450px;
+    float:left;
+    border-radius:10px;
+    margin:50px;
+    box-shadow:10px 11px 3px black;
+}
+.card1 img{
+    width:250px;
+    height:400px;
+}
+.card2{
+    position: relative;
+    overflow:hidden;
+
+}
+.card2{
+    width: 250px;
+    height:250px;
+    float:right;
+    border-radius:100%;
+    margin:30px;
+    shape-outside: circle();
+    box-shadow:10px 11px 3px black;
+}
+.card2 img{
+    width:250px;
+    height:250px;
+}
+.card3{
+    position: relative;
+    overflow:hidden;
+}
+.card3{
+    width: 250px;
+    height:450px;
+    float:left;
+    border-radius:10px;
+    margin:50px;
+    box-shadow:10px 11px 3px black;
+}
+.card3 img{
+    width:250px;
+    height:400px;
+}
+h1{
+    font-size:3em;
+    font-family:'stencil';
+    background:linear-gradient(blue,#00ccff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+h2{
+    font-size:2em;
+    font-family:'lumari';
+    
+    margin:10px;
+     background:linear-gradient(#560319,#ff0028 );
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+p{
+    font-family:'times new roman';
+    color:black;
+    font-size:20px;
+}
+h3{
+    font-family:'cursive';
+    font-style:italic;
+    color:black; 
+    margin:0em;
+}
